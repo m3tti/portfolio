@@ -1,0 +1,4 @@
+dist/index*
+dist/main*
+.cache/
+node_modules/

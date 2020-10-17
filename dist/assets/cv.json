@@ -1,0 +1,37 @@
+[
+    {
+        "duration": "Oct. 2018 - today",
+        "company": "VMRay GmBH",
+        "technologies": ["TypeScript", "PureScript", "Vue", "Python", "MongoDB", "SCSS", "GIT"],
+        "role": "Technical Lead Frontend",
+        "description": ""
+    },
+    {
+        "duration": "Jul. 2015 - Oct. 2018",
+        "company": "QuinScape GmbH",
+        "technologies": ["React", "Javascript", "Java", "Oracle", "Angular", "GIT"],
+        "role": "Consultant Mobile Solutions",
+        "description": ""
+    },
+    {
+        "duration": "Oct. 2014 - Jul. 2015",
+        "company": "Osudio GmbH",
+        "technologies": ["Hybris", "Javascript", "JSF", "Spring", "GIT"],
+        "role": "Full-Stack Developer",
+        "description": ""
+    },
+    {
+        "duration": "Nov. 2012 - Oct. 2014",
+        "company": "Viada GmbH & Co. KG",
+        "technologies": ["Java EE", "JBoss", "RichFaces", "Oracle", "GIT"],
+        "role": "IT-Consultant",
+        "description": ""
+    },
+    {
+        "duration": "Sep. 2011 - Oct. 2012",
+        "company": "ArcMind Technologies",
+        "technologies": ["Java", "Spring", "Swing", "Vaadin", "Postgres", "SVN"],
+        "role": "Project Lead",
+        "description": ""
+    }
+]
