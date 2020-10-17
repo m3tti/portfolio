@@ -1,15 +1,18 @@
 <template>
-    <div class="content fade-in">
+    <loading :loading="loading">
         <div class="intro" v-html="markdown">
         </div>
-    </div>
+    </loading>
 </template>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import { Converter } from "showdown";
+import Loading from "./components/Loading.vue";
 import IntroApi from "./api/IntroApi";
 
-@Component
+@Component({
+    components: { Loading }
+})
 export default class Intro extends Vue {
     loading: boolean = false;
     markdown: string = "";

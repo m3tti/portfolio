@@ -1,5 +1,5 @@
 <template>
-    <div class="content fade-in">
+    <loading :loading="loading">
         <div class="print" @click="print">
             <printerlogo></printerlogo>
         </div>
@@ -11,18 +11,19 @@
                 :technologies="step.technologies"
             ></CVstep>
         </div>
-    </div>
+    </loading>
 </template>
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Loading from "./components/Loading.vue";
 import CVstep from './components/cv/CVstep.vue';
-import printerlogo from "./components/printerlogo.vue";
+import Printerlogo from "./components/Printerlogo.vue";
 import { Step, CVApi } from './api/CVApi';
 
 @Component({
     name: "cv",
-    components: { CVstep, printerlogo }
+    components: { CVstep, Printerlogo, Loading }
 })
 export default class CV extends Vue {
     loading: boolean = false;
@@ -44,10 +45,6 @@ export default class CV extends Vue {
 }
 </script>
 <style lang="scss">
-.content {
-    margin-top: 80px;
-}
-
 .cv {
     overflow: auto;
     max-height: 89vh;

@@ -31,35 +31,5 @@ export default class Main extends Vue {
       color: #1c1c1c;
       overflow: hidden;
   }
-  .fade-in {
-    animation: fadeIn ease 0.3s;
-    -webkit-animation: fadeIn ease 0.3s;
-    -moz-animation: fadeIn ease 0.3s;
-    -o-animation: fadeIn ease 0.3s;
-    -ms-animation: fadeIn ease 0.3s;
-  }
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-    
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-    
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
+  
 </style>
